@@ -3,12 +3,12 @@ name = "neural-network"
 version = "0.1.0"
 description = "MNIST neural network"
 authors = ["aryan-debug <aryanarora2285@gmail.com>"]
-readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.13"
 fastapi = {extras = ["standard"], version = "^0.115.14"}
 numpy = "^2.3.1"
+uvicorn = "^0.35.0"
 
 
 [build-system]

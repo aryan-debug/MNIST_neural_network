@@ -7,7 +7,7 @@ from neural_network.predictor import Predictor
 
 server = FastAPI()
 
-origins = ["http://localhost:5173"]
+origins = ["http://localhost"]
 
 
 server.add_middleware(
