@@ -1,0 +1,1 @@
+export const neural_network_response = $state({prediction: []});
