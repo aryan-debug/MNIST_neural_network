@@ -102,7 +102,7 @@
     }
     
     async function getPrediction(): Promise<void> {
-      const response = await fetch("http://aryan.codes:8000/api/predict", {
+      const response = await fetch("/api/predict", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
