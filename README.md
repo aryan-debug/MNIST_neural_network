@@ -13,7 +13,7 @@ This application classifies digits from 0-9 by using a simple neural network tha
 
 ## Demo
 
-https://github.com/user-attachments/assets/96834a33-8c8e-4f19-8df2-48d3c756ccc5
+https://github.com/user-attachments/assets/757543cf-b344-4a91-8c76-c6208f722ad0
 
 ## References
 
