@@ -8,6 +8,8 @@ This application classifies digits from 0-9 by using a simple neural network tha
 - Chart.js
 - Nginx
 - Docker
+- DigitalOcean
+- GoDaddy
 
 ## Demo
 
