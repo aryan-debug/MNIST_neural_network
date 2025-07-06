@@ -1,6 +1,7 @@
 <script lang="ts">
-  import Grid from "../components/Grid.svelte";
-  import BarGraph from "../components/BarGraph.svelte";
+	import BarGraph from "../../components/BarGraph.svelte";
+	import Grid from "../../components/Grid.svelte";
+
 </script>
 
 <div class = "container">
