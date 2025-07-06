@@ -1,7 +1,6 @@
 <script lang="ts">
     import { onMount } from 'svelte';
 	  import { neural_network_response } from './prediction.svelte';
-    import { PUBLIC_API_URL } from "$env/static/public";
     
     let canvas: HTMLCanvasElement;
     let ctx: CanvasRenderingContext2D;

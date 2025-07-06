@@ -7,7 +7,7 @@ from neural_network.predictor import Predictor
 
 server = FastAPI()
 
-origins = ["http://127.0.0.1:3000", "http://api.aryan.codes"]
+origins = ["http://127.0.0.1:3000", "http://api.aryan.codes", "http://localhost"]
 
 
 server.add_middleware(
