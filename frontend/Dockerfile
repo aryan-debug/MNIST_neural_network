@@ -8,3 +8,5 @@ RUN yarn install
 COPY . .
 
 RUN yarn run build
+
+CMD ["node", "build"]

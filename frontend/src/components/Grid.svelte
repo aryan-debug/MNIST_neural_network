@@ -1,6 +1,7 @@
 <script lang="ts">
     import { onMount } from 'svelte';
-	import { neural_network_response } from './prediction.svelte';
+	  import { neural_network_response } from './prediction.svelte';
+    import { PUBLIC_API_URL } from "$env/static/public";
     
     let canvas: HTMLCanvasElement;
     let ctx: CanvasRenderingContext2D;
@@ -100,9 +101,9 @@
       grid = Array(GRID_SIZE).fill(null).map(() => Array(GRID_SIZE).fill(0));
       drawGrid();
     }
-    
+
     async function getPrediction(): Promise<void> {
-      const response = await fetch("/api/predict", {
+      const response = await fetch(`http://api.aryan.codes/predict`, {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

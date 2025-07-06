@@ -6,10 +6,9 @@ RUN pip install poetry
 
 COPY pyproject.toml poetry.lock* ./
 
-COPY . .
 RUN poetry config virtualenvs.in-project true && \
-    poetry install --no-root && \
-    poetry build
+    poetry install --no-root 
+COPY . .
 
 EXPOSE 8000
 
